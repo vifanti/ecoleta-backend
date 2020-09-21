@@ -28,6 +28,7 @@ routes.post(
         whatsapp: Joi.string().required(),
         latitude: Joi.number().required(),
         longitude: Joi.number().required(),
+        house_number: Joi.number().required(),
         city: Joi.string().required(),
         uf: Joi.string().required().max(2),
         items: Joi.string().required(),
